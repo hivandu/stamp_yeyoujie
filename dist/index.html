@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="black" name="apple-mobile-web-app-status-ba-style">
+    <meta content="telephone=no" name="format-detection">
+    <title></title>
+
+    <!-- injector:css -->
+    <link rel="stylesheet" href="assets/stylesheets/main.css"/>
+    <!-- endinjector -->
+</head>
+<body>
+
+<div id="main">
+    <!-- radio -->
+    <div class="radio">
+        <img class="radio-circle" src="assets/images/radio-circle.png" alt=""/>
+        <img class="radio-handlebar" src="assets/images/radio-handlebar.png" alt=""/>
+
+        <!-- audio -->
+        <audio controls loop id="audio">
+            <source src="assets/audio/audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio controls class="audio-scene01" id="scene01">
+            <source src="assets/audio/scene01.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio controls class="audio-scene02" id="scene02">
+            <source src="assets/audio/scene02.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio controls class="audio-scene03" id="scene03">
+            <source src="assets/audio/scene03.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio controls class="audio-scene04" id="scene04">
+            <source src="assets/audio/scene04.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio controls class="audio-scene05" id="scene05">
+            <source src="assets/audio/scene05.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio controls class="audio-scene06" id="scene06">
+            <source src="assets/audio/scene06.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio control class="audio-scene07" id="scene07">
+            <source src="assets/audio/scene07.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <!-- end radio -->
+
+    <!-- loading -->
+    <div class="loading">
+        <img class="loading-chilun01" src="assets/images/chilun01.png" alt=""/>
+        <img class="loading-chilun01-01" src="assets/images/chilun01-01.png" alt=""/>
+        <img class="loading-chilun02" src="assets/images/chilun02.png" alt=""/>
+        <img class="loading-chilun02-01" src="assets/images/chilun02-01.png" alt=""/>
+        <img class="loading-chilun03" src="assets/images/chilun03.png" alt=""/>
+
+        <p class="loading-text">Loading..</p>
+    </div>
+
+    <div class="start">
+        <img src="assets/images/button01.png" alt=""/>
+    </div>
+    <!-- end loading -->
+
+    <img class="sentence" src="assets/images/screen-greeting-sentence01.png" alt=""/>
+
+    <!-- scene 02 -->
+    <section class="scene scene02">
+        <div class="flagWrap">
+            <div class="flag">
+                <img class="flag-body" src="assets/images/para-end.png" alt=""/>
+            </div>
+        </div>
+    </section>
+    <!-- end scene 02 -->
+
+    <!-- share and replay button -->
+    <div class="buttonWrap">
+        <p>
+            <!-- share -->
+            <img class="shareFriends" src="assets/images/button02.png" alt=""/>
+        </p>
+        <p>
+            <!-- replay -->
+            <img src="assets/images/button03.png" alt="" onclick="location.reload();"/>
+        </p>
+    </div>
+
+    <div class="share-img">
+        <div class="share-txt"><img src="assets/images/share-txt.png" alt=""/></div>
+    </div>
+    <!-- end button-->
+
+    <!-- letter -->
+    <div class="letter letter01">
+        <img class="letter-money-sketch" src="..." alt=""/>
+        <div class="letter-money-mask">
+            <img class="letter-money" src="..." alt=""/>
+        </div>
+
+        <img class="letter-stamp-sketch" src="assets/images/letter-stamp01.png" alt=""/>
+        <div class="letter-stamp-mask">
+            <img class="letter-stamp" src="assets/images/letter-stamp01.png" alt=""/>
+        </div>
+
+        <img class="letter-postmark a-gaizhang" src="assets/images/postmark.png" alt=""/>
+        <img class="letter-sketch" src="assets/images/letter-sketch.png" alt=""/>
+        <div class="letter-full-mask">
+            <div class="letter-mask"></div>
+        </div>
+
+        <div class="letter-context">
+            <img src="..." alt=""/>
+        </div>
+    </div>
+
+    <div class="letter letter02">
+        <img class="letter-money-sketch" src="..." alt=""/>
+        <div class="letter-money-mask">
+            <img class="letter-money" src="..." alt=""/>
+        </div>
+
+        <img class="letter-stamp-sketch" src="assets/images/letter-stamp01.png" alt=""/>
+        <div class="letter-stamp-mask">
+            <img class="letter-stamp" src="assets/images/letter-stamp01.png" alt=""/>
+        </div>
+
+        <img class="letter-postmark a-gaizhang" src="assets/images/postmark.png" alt=""/>
+        <img class="letter-sketch" src="assets/images/letter-sketch.png" alt=""/>
+        <div class="letter-full-mask">
+            <div class="letter-mask"></div>
+        </div>
+
+        <div class="letter-context">
+            <img src="..." alt=""/>
+        </div>
+    </div>
+
+    <!-- arrow -->
+    <div class="scene-arrow">
+        <img src="assets/images/checkoutButton.png">
+    </div>
+    <!-- end arrow -->
+    <!-- end letter -->
+
+    <!--  paper machine -->
+    <div class="papermachine papermachine-body-up">
+        <div class="papermachine-wrap">
+            <img class="machine" src="assets/images/papermachine-body-up.png" alt=""/>
+
+            <!-- chilun -->
+            <div class="chilun-wrap">
+                <span class="chilun chilun01"></span>
+                <span class="chilun chilun02"></span>
+                <span class="chilun chilun03"></span>
+                <span class="chilun chilun04"></span>
+                <span class="chilun chilun05"></span>
+                <span class="chilun chilun06"></span>
+                <span class="chilun chilun07"></span>
+                <canvas class="fire fireSmall" id="fire"></canvas>
+                <canvas class="fire fireBig" id="fireBig"></canvas>
+            </div>
+
+            <!-- paper blocks -->
+            <img class="paper-block paper-block01-01" src="assets/images/paper-block01.png" alt=""/>
+            <img class="paper-block paper-block01-02" src="assets/images/paper-block02.png" alt=""/>
+            <img class="paper-block paper-block01-03" src="assets/images/paper-block03.png" alt=""/>
+
+            <img class="paper-block paper-block02-01" src="assets/images/paper-block01.png" alt=""/>
+            <img class="paper-block paper-block02-02" src="assets/images/paper-block02.png" alt=""/>
+            <img class="paper-block paper-block02-03" src="assets/images/paper-block03.png" alt=""/>
+
+            <!-- machine light -->
+            <div class="pamerpachine-light"></div>
+        </div>
+    </div>
+
+    <div class="papermachine papermachine-body-down">
+        <img class="machine" src="assets/images/papermachine-body-down.png" alt=""/>
+    </div>
+    <!--  end paper machine -->
+
+    <!-- rails -->
+    <img class="rails-left" src="assets/images/rail.png" alt=""/>
+    <img class="rails-right" src="assets/images/rail.png" alt=""/>
+
+    <!-- bg -->
+    <div id="bg"></div>
+</div>
+
+<!-- page -->
+<script src="assets/scripts/jquery-2.1.3.min.js"></script>
+<script src="assets/scripts/hammer.min.js"></script>
+<script src="assets/scripts/main.js"></script>
+
+</body>
+</html>
